@@ -1,0 +1,12 @@
+[buildPlans.iosevka-term-jbml]
+family = "Iosevka Term JetBrain Mono Lig"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+
+  [buildPlans.iosevka-term-jbml.variants]
+  inherits = "ss14"
+
+  [buildPlans.iosevka-term-jbml.ligations]
+  inherits = "dlig"
