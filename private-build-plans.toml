@@ -1,5 +1,5 @@
 [buildPlans.iosevka-term-jbml]
-family = "Iosevka Term JetBrains Mono Style Lig"
+family = "Iosevka Term JBML"
 spacing = "term"
 serifs = "sans"
 no-cv-ss = true
@@ -9,4 +9,4 @@ export-glyph-names = false
   inherits = "ss14"
 
   [buildPlans.iosevka-term-jbml.ligations]
-  inherits = "dlig"
+  inherits = "haskell"
