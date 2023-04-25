@@ -8,5 +8,8 @@ export-glyph-names = false
   [buildPlans.iosevka-term-jbml.variants]
   inherits = "ss14"
 
+    [buildPlans.iosevka-term-jbml.variants.design]
+    g = "single-storey-serifless"
+
   [buildPlans.iosevka-term-jbml.ligations]
   inherits = "haskell"
