@@ -1,15 +1,15 @@
-[buildPlans.iosevka-term-jbms]
+[buildPlans.IosevkaTermJBMS]
 family = "Iosevka Term JBMS"
 spacing = "term"
 serifs = "sans"
-no-cv-ss = true
-export-glyph-names = false
+noCvSs = true
+exportGlyphNames = false
 
-  [buildPlans.iosevka-term-jbms.variants]
+  [buildPlans.IosevkaTermJBMS.variants]
   inherits = "ss14" # JetBrains Mono Style
 
-    [buildPlans.iosevka-term-jbms.variants.design]
+    [buildPlans.IosevkaTermJBMS.variants.design]
     g = "single-storey-serifless"
 
-  [buildPlans.iosevka-term-jbms.ligations]
+  [buildPlans.IosevkaTermJBMS.ligations]
   inherits = "haskell"
