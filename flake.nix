@@ -11,7 +11,7 @@
         plan = builtins.readFile(./private-build-plans.toml);
       in {
         defaultPackage = pkgs.iosevka.override {
-          set = "term-jbml";
+          set = "term-jbms";
           privateBuildPlan = plan;
         };
       }
